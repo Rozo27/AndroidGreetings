@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".LowerActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F7F4F4"
+        app:layout_constraintBottom_toTopOf="@+id/videoView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="269dp"
+        android:layout_height="344dp"
+        android:layout_marginBottom="36dp"
+        android:background="#B69C9C"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="320dp"
+        android:layout_height="191dp"
+        android:layout_marginBottom="48dp"
+        android:text="Your legs and abdominal muscles are often the two muscle groups that get neglected in a typical training week, whether it's a few useless crunches bolted onto the end of your session or skipping leg day altogether in an effort to further grow your mirror muscles.
+
+To help put an end to that, we tasked PT Jonny Jacobs with creating a legs and abs workout combo to have you firing on all cylinders, to sizzle belly fat and to ensure that no muscles at the end of your week are left unattended.
+
+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF7F7"
+        app:fontFamily="@font/advent_pro_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

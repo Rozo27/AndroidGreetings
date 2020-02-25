@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".FullActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="347dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="32dp"
+        android:text="In a full-body routine, you train every major muscle in your body, like your chest, back, arms, hamstrings and abs, in each workout. They incorporate exercises that engage many of those muscle groups in one movement, like squats, deadlifts and overhead presses, all of which are also called compound movements."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FAF7F7"
+        android:textSize="18sp"
+        app:fontFamily="@font/advent_pro_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="286dp"
+        android:layout_height="368dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/imagine2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

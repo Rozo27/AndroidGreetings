@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="LoremIpsum"
+        android:textColor="#F5F3F4"
+        android:textSize="30sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Choose your workout for today:"
+        android:textColor="#F5F3F4"
+        android:textSize="30sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <CheckBox
+        android:id="@+id/pushchecked"
+        android:layout_width="145dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:text="Push-Pull"
+        android:textColor="#4D0424"
+        android:textSize="24sp"
+
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <CheckBox
+        android:id="@+id/lowerchecked"
+        android:layout_width="149dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:text="Lower Body"
+        android:textColor="#4D0424"
+        android:textSize="24sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pushchecked" />
+
+    <CheckBox
+        android:id="@+id/fullchecked"
+        android:layout_width="128dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        android:text="Full Body"
+        android:textColor="#4D0424"
+
+        android:textSize="24sp"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lowerchecked" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="294dp"
+        android:layout_height="241dp"
+        android:background="#00F7F3F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fullchecked"
+        app:layout_constraintVertical_bias="0.25"
+        app:srcCompat="@drawable/imagine1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
